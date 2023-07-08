@@ -1,0 +1,17 @@
+{
+  "name": "Authelia",
+  "available": true,
+  "port": 9091,
+  "exposable": true,
+  "force_expose": true,
+  "id": "authelia", # This should be the same name as the folder
+  "description": "Authelia is an open-source authentication and authorization server and portal fulfilling the identity and access management (IAM) role of information security in providing multi-factor authentication and single sign-on (SSO) for your applications via a web portal. It acts as a companion for common reverse proxies.", # Long description of the app
+  "tipi_version": 1, # Always 1 if you are adding a new app
+  "version": "4.37.5", # The actual version of the app (not the tipi version)
+  "categories": ["security"], # One or more categories for the app
+  "short_desc": "The Single Sign-On Multi-Factor portal for web apps ", # Short description of the app
+  "author": "Authelia", # Link or name of the author 
+  "source": "https://github.com/authelia/authelia", # Link for git repo
+  "website": "https://www.authelia.com/", # Link to the official website
+  "form_fields": [] # Used to ask for more info to the user before installing. Will be explained further
+}
