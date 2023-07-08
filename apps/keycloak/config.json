@@ -1,0 +1,18 @@
+{
+  "name": "Keycloak",
+  "available": true,
+  "port": 8443,
+  "exposable": true,
+  "force_expose": true,
+  "https": true,
+  "id": "keycloak", # This should be the same name as the folder
+  "description": "Keycloak provides user federation, strong authentication, user management, fine-grained authorization, and more. ", # Long description of the app
+  "tipi_version": 1, # Always 1 if you are adding a new app
+  "version": "21.1.2", # The actual version of the app (not the tipi version)
+  "categories": ["security"], # One or more categories for the app
+  "short_desc": "Open Source Identity and Access Management For Modern Applications and Services", # Short description of the app
+  "author": "Keycloak", # Link or name of the author 
+  "source": "https://github.com/keycloak/keycloak", # Link for git repo
+  "website": "https://www.keycloak.org/", # Link to the official website
+  "form_fields": [] # Used to ask for more info to the user before installing. Will be explained further
+}
